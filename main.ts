@@ -19,5 +19,7 @@ forever(function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, SpriteKind.Player)
+    scene.setBackgroundColor(6)
     controller.moveSprite(mySprite)
+    controller.player2.moveSprite(mySprite)
 })
